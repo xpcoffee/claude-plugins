@@ -14,7 +14,10 @@
       "description": "Memgraph-powered knowledge graph MCP server for markdown notes",
       "version": "0.1.0",
       "author": { "name": "xpcoffee" },
-      "source": "./plugins/nvim-markdown-notes-memgraph",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xpcoffee/nvim-markdown-notes-memgraph.git"
+      },
       "category": "productivity"
     }
   ]
