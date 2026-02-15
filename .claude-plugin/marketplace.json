@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins",
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Rick's personal Claude Code plugins and MCP servers"
+  },
+  "owner": {
+    "name": "xpcoffee"
+  },
+  "plugins": [
+    {
+      "name": "nvim-markdown-notes-memgraph",
+      "description": "Memgraph-powered knowledge graph MCP server for markdown notes",
+      "version": "0.1.0",
+      "author": { "name": "xpcoffee" },
+      "source": "./plugins/nvim-markdown-notes-memgraph",
+      "category": "productivity"
+    }
+  ]
+}
